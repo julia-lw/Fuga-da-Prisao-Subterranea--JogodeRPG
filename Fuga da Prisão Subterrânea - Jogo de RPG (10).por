@@ -108,6 +108,9 @@ programa {
                                                 leia(opcao)
                                                 escreva("O rato é muito forte e você não consegue derrotá-lo.\nGame Over.\n")
                                                 retorne
+                                                caso contrario:
+                                                escreva("Opção inválida, escolha entre 1 ou 2.")
+                                                pare
                                             caso 2:
                                                 escreva("Você corre na direção oposta, achando um beco com uma válvula na parede⚙. Ela deve ser girada pelo lado correto para ser aberta. Para qual lado você gira?\n(1) Esquerda⬅.\n(2) Direita➡.\n")
                                                 leia(lado)
