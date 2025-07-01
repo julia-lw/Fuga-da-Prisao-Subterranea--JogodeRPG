@@ -35,7 +35,7 @@ programa {
                   escreva("Você escolheu um item que não serve para abrir a passagem.\nTente de novo.")
                 }
                 se(item==2){
-                  escreva("Você escolheu um item que não serve para abrir a passage.\nTente de novo.")
+                  escreva("Você escolheu um item que não serve para abrir a passagem.\nTente de novo.")
                 }
                 se(item==3){
                     escreva("Você escolheu uma lixa, alargando o buraco e acessando uma pequena saída.\nVocê acessa uma nova área: os corredores do térreo. Prepare-se para correr.\n")
