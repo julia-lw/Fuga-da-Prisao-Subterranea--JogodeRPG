@@ -28,6 +28,9 @@ programa {
                 escreva("Você escolheu a tranca enferrujada. Você força a tranca da porta e sai, porém o barulho acorda o guarda. Ele rapidamente pega seu braço antes que possas correr, te jogando e prendendo de volta na cela.\n")
                 escreva("Game Over.\n")
                 retorne
+                caso contrario:
+                  escreva("Opção inválida, escolha entre 1 ou 2.")
+                  pare
             caso 2:
                 escreva("Você escolheu o buraco no chão. Precisas de algo para o alargar. Encontras três itens na cela.\n(1) Colher🥄.\n(2) Pedaço do pé da cama.🛏️\n(3) Lixa🏏.\nQual item você escolhe? ")
                 leia(item)
@@ -41,7 +44,10 @@ programa {
                     escreva("Você escolheu uma lixa, alargando o buraco e acessando uma pequena saída.\nVocê acessa uma nova área: os corredores do térreo. Prepare-se para correr.\n")
                     escreva("Pressione enter para continuar \n")
                     leia(nomePersonagem)
-                   
+                   }senao{
+                  escreva("Opcão inválida, escolha entre 1, 2 ou 3.")
+                  pare
+                }
                     //Segunda decisão
                     escreva("---")
                     escreva("\nVocê está no início de um corredor extenso, ocupado por guardas na porta de cada uma das celas. Seu objetivo é chegar até o outro lado sem ser pego. Você pode:\n(1) Lutar⚔.\n(2) Esquivar e correr🏃‍♂️.\nO que você escolhe? ")
