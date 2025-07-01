@@ -49,6 +49,7 @@ programa {
                   pare
                 }
                     //Segunda decisão
+                    escreva("Segunda decisão:\n")
                     escreva("---")
                     escreva("\nVocê está no início de um corredor extenso, ocupado por guardas na porta de cada uma das celas. Seu objetivo é chegar até o outro lado sem ser pego. Você pode:\n(1) Lutar⚔.\n(2) Esquivar e correr🏃‍♂️.\nO que você escolhe? ")
                     leia(opcao)
@@ -81,6 +82,7 @@ programa {
                             }
 
                                     // Terceiro desafio
+                                    escreva("Terceiro desafio:\n")
                                     escreva("---")
                                     escreva("\nVocê passa da porta e anda um pequeno percurso por um corredor. Uma abertura escura é avistada no fim do corredor. Você chega até lá e vê uma grade enferrujada cobrindo a entrada. Após tirá-la do caminho, você passa pela abertura e segue um longo caminho onde a escuridão é quase total, e cada passo ecoa nas paredes úmidas. Você mal consegue ver o que está a frente, mas a corrente de água fria nos seus tornozelos indica a direção. Seus olhos se esforçam para se adaptar.\nVocê continua andando e tropeça em algo na água. Ao tatear, suas mãos encontram uma lanterna pesada e fria🔦. Você tenta ligá-la, mas percebe que as pilhas estão ausentes.\n")
                                     escreva("Pressione enter para continuar \n")
